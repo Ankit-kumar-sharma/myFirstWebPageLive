@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div
+{
+    width: 100%;
+    border:1px dotted black;
+    height:auto;
+
+}
+#header
+{
+    position: sticky;
+    display: flex;
+    flex:1;
+    height: 150px;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;    
+}
+.logo-name
+{
+    font-size: 28px;
+    color: blue;
+}
+#header a
+{
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    border: 0px solid red;
+    border-radius: 20px;
+}
+#header a:hover
+{
+    background-color: red;
+    color: white;
+}
+.sub-header
+{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: 1px dotted black;
+}
+.middle-side-bar
+{
+    flex: 7;
+    height: 800px;
+    border: 1px dotted black;
+    overflow-y: auto;
+    padding-top:20px ;
+    padding: 10px;
+}
+.side-bar
+{
+    flex: 3;
+    height: 800px;
+    border: 1px dotted black;
+}
+.share-link
+{
+    flex: 1;
+    height: 500px;
+    border:1px dotted black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Advertisement
+{
+    flex: 1;
+    height: 200px;
+    border: 1px dotted black;
+}
+.contact-form
+{
+    padding: 10px;
+    width: 30%;
+    height:500px;
+    border: 1px dotted black;
+    position: absolute;
+    right: 0;
+}
+.body-content-box
+{
+display: flex;
+flex-direction: row;
+}
+.TagLine
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100%;
+    height: 200px;
+    border: 1px dotted black;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    border: 1px dotted black;
+    overflow-x: auto;
+}
+.card
+{
+    width: 30%;
+    height: 500px;
+    border: 1px dotted black;
+  
+}
+.main-footer
+{
+    display: flex;
+    flex: 1;
+    border: 1px dotted black;
+    height: 400px;
+    margin-bottom: 20px;
+}
+#services
+{
+    width: 100%;
+    height: 400px;
+    border: 1px dotted black;
+}
+#about-us
+{
+    width: 100%;
+    height: 400px;
+    border:1px dotted black;
+}
